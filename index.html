@@ -6,7 +6,7 @@
 <title>WindTeam</title><style>
   body {
     background-color: #222;
-    color: #fc716e; /* Darker green color */
+    color: #c9c5c5; /* Darker green color */
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
     margin: 0;
     padding: 0;
@@ -32,6 +32,10 @@
   h1 {
     border-bottom: 1px solid #333;
 	text-align: center;
+  
+    color: #c9c5c5; /* This is the hex code for white */
+
+
   }
   .team-img {
      width: 100px; /* Adjust as needed */
@@ -89,6 +93,14 @@
   .writeups-list a:hover {
     color: #fff; /* Changes color on hover */
   }
+  h2 {
+    color: #fc716e; /* This is the hex code for white */
+}
+.writeups-list p {
+    //color: #c9c5c5; /* your existing red color */
+    font-size: 1.2em; /* Slightly larger font size; adjust as needed */
+    line-height: 1.6; /* Slightly more space between lines; adjust as needed */
+}
 
 </style>
 </head>
@@ -102,16 +114,25 @@
 <div class="container">
   <section class="members">
   <img src="./images/team2.png" alt="Member Name" class="team-img">
-    <h1>WindTeam</h1>
     <!-- Repeat this part for each member -->
-   <ul class="writeups-list">
-    <!-- Repeat this part for each writeup -->
-    <li>We are an international CTF team created in 2022.</li>
-	<li>  <a href="https://ctftime.org/team/186555" target="_blank"><img src="./images/ctftime.png" class="social-icon"></a></li>
+    <h1></h1>
+    <div class="writeups-list">
+      <h2>About WindTeam</h2>
+      <p>Founded in 2022, WindTeam was born out of a shared passion for information security and the thrilling world of Capture The Flag (CTF) competitions. Our collective ambition is more than just winning; it's about fostering a community where knowledge and collaboration take the front seat.
+      </p> <!-- Add the full description here -->
+    <p>Our primary goal is to continuously enhance our skills and to elevate our performance in CTF challenges. </p>
+    
+      <h2>Our Values</h2>
+      <p>Teamwork, perseverance, and respect are the core values of WindTeam. We thrive on working together, knowing that each attempt and every effort makes us better. We value the journey of growth and the effort everyone puts in. In our team, respect for each other is key, and we always make sure everyone's opinions are heard.</p> <!-- Add the full description here -->
+      <h2>Contact Us</h2>
+      <p>Have questions about WindTeam, interested in collaborating with us, or any other inquiries?  We'd love to hear from you! Reach out to us at ctfwindteam@gmail.com.</p> <!-- Add the full description here -->
+</div>
+	<a href="https://ctftime.org/team/186555" target="_blank"><img src="./images/ctftime.png" class="social-icon"></a>
 
     <!-- Example writeup link -->
     <!-- Writeup section ends -->
   </ul>
+  
     <!-- Member section ends -->
   </section>
 </div>
