@@ -60,12 +60,10 @@
     margin-top: 10px;
   }
   .social-icon {
-    width: 30px !important; /* Size of social media icons */
-    height: 30px !important;
+    width: 18px !important; /* Size of social media icons */
+    height: 18px !important;
     margin: 0 0px;
     display: inline-block;
-	margin-top: 10px;
-
   }
   
     .writeups-list {
@@ -89,12 +87,20 @@
   .writeups-list a:hover {
     color: #fff; /* Changes color on hover */
   }
-
+  .writeups-list li::before {
+  content: '• '; /* This is the bullet character */
+  color: #fc717e; /* Use the color you prefer for the bullet */
+  font-weight: bold; /* If you want the bullet to be bold */
+  display: inline-block; /* Necessary for alignment */
+  width: 1em; /* Provides spacing between the bullet and the text */
+  margin-left: -1em; /* Aligns the bullet properly with the list */
+  margin-top: 10px;
+}
 </style>
 </head>
 <body>
 <header>
-  <a href="index.html">Home</a>
+  <a href="../index.html">Home</a>
   <a href="members.html">Members</a>
   <a href="writeups.html">Writeups</a>
   <a href="achievements.html">Achievements</a>
@@ -102,14 +108,15 @@
 <div class="container">
   <section class="members">
   <img src="../images/team2.png" alt="Member Name" class="team-img">
-    <h1>WindTeam</h1>
+    <h1>Achievements</h1>
     <!-- Repeat this part for each member -->
    <ul class="writeups-list">
-    <!-- Repeat this part for each writeup -->
-    <li>We are an international CTF team created in 2022.</li>
-	<li>  <a href="https://ctftime.org/team/186555" target="_blank"><img src="../images/ctftime.png" class="social-icon"></a></li>
-
+   <li><a href="https://ctftime.org/event/2126" target="_blank">[BlueHens CTF 2023] 56th place</a></li>
+    <li><a href="https://ctftime.org/event/2108" target="_blank">[3st stage MetaRed CTF Argentina 2023] 26th place</a></li>
+    <li><a href="https://ctftime.org/event/2031" target="_blank">[DEADFACE CTF 2023] 70th place</a></li>
+    <li><a href="https://ctftime.org/event/2032" target="_blank">[CrewCTF 2023] 31st place</a></li>
     <!-- Example writeup link -->
+    
     <!-- Writeup section ends -->
   </ul>
     <!-- Member section ends -->
