@@ -1,94 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WindTeam</title>
-<style>
-  body {
-    background-color: #222;
-    color: #ffffff; /* Darker green color */
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: #222;
-    padding: 10px 0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WindTeam</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #ffffff; /* Darker green color */
+      font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+      //margin: 0;
+      //padding: 0;
+    }
+    header {
+      background-color: #222;
+      padding: 10px 0;
+      text-align: center;
+    }
+    header a {
+      color: #fc717e;
+      text-decoration: none;
+      margin: 0 15px;
+    
+    
+    }
+    .container {
+      max-width: 600px; /* Fixed max width for larger screens */
+      margin: 20px auto;
+      text-align: center;
+    }
+    h1 {
+      border-bottom: 1px solid #333;
     text-align: center;
-  }
-  header a {
-    color: #fc717e;
-    text-decoration: none;
-    margin: 0 15px;
-	
-	
-  }
-  .container {
-    max-width: 600px; /* Fixed max width for larger screens */
-    margin: 20px auto;
-  //  padding-left: 180px; /* Padding on the left to start content more from the center */
-	text-align: center;
-  }
-  h1 {
-    border-bottom: 1px solid #333;
-	text-align: center;
-  //color: #c9c5c5; /* Darker green color */
-  color: #fc717e; /* Or any color that distinguishes it from the rest of the text */
+    color: #fc717e; /* Or any color that distinguishes it from the rest of the text */
+    }
 
+    h2 {
+    color: #fc717e; /* Or any color that distinguishes it from the rest of the text */
+    }
 
+    .team-img {
+      width: 100px; /* Adjust as needed */
+      height: 100px; /* Adjust as needed for square images */
+    }
+    .member {
+      display: flex; /* Use flexbox for layout */
+      align-items: center; /* Align items vertically */
+      margin: 20px 0;
+    }
+    .member div {
+      text-align: left; /* Align the text of the member details to the left */
   }
-  h2 {
-   color: #fc717e; /* Or any color that distinguishes it from the rest of the text */
+    .member img {
+      width: 100px; /* Adjust as needed */
+      height: 100px; /* Adjust as needed for square images */
+      margin-right: 20px; /* Space between image and text */
+    }
+  .socials {
+      display: flex;
+      gap: 0px; /* Adjusts the gap between flex items */
+      font-size: 0; /* Removes extra space caused by inline-block */
+  }
 
-  //color: #c9c5c5; /* Darker green color */
+  .social-icon {
+      width: 18px !important;
+      height: 18px !important;
+      margin: 0;
+      display: inline-block;
+      font-size: initial; /* Reset font size for icons, if needed */
   }
-  .team-img {
-     width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed for square images */
-    //border-radius: 80%; /* Circular images */
-    //margin-right: 20px; /* Space between image and text */
-	//margin-top: -70px; /* Space between image and text */
+  .member blockquote {
+      font-style: italic;
+      margin: 10px 0;
+      color: #ffffff; /* Darker green color */
   }
-  .member {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Align items vertically */
-    margin: 20px 0;
-  }
-  .member div {
-    text-align: left; /* Align the text of the member details to the left */
-}
-  .member img {
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed for square images */
-    //border-radius: 80%; /* Circular images */
-    margin-right: 20px; /* Space between image and text */
-	//margin-top: -70px; /* Space between image and text */
-
-  }
-.socials {
-    display: flex;
-    gap: 0px; /* Adjusts the gap between flex items */
-    font-size: 0; /* Removes extra space caused by inline-block */
-}
-
-.social-icon {
-    width: 18px !important;
-    height: 18px !important;
-    margin: 0;
-    display: inline-block;
-    font-size: initial; /* Reset font size for icons, if needed */
-}
-.member blockquote {
-    font-style: italic;
-    margin: 10px 0;
-    color: #ffffff; /* Darker green color */
-}
-</style>
+  </style>
 </head>
 <body>
 <header>
-  <a href="../index.html">Home</a>
+  <a href="../index.html">About Us</a>
   <a href="members.html">Members</a>
   <a href="writeups.html">Writeups</a>
   <a href="achievements.html">Achievements</a>
