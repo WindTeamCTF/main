@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Order Of the Phoenix</title>
+<style>
+  body {
+    background-color: #222;
+    color: #fc716e; /* Darker green color */
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+  }
+  header a {
+    color: #fc717e;
+    text-decoration: none;
+    margin: 0 15px;
+	
+	
+  }
+  .container {
+    max-width: 600px; /* Fixed max width for larger screens */
+    margin: 20px auto;
+  //  padding-left: 180px; /* Padding on the left to start content more from the center */
+	text-align: center;
+  }
+  h1 {
+    border-bottom: 1px solid #333;
+	text-align: center;
+  }
+  .team-img {
+     width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed for square images */
+    //border-radius: 80%; /* Circular images */
+    //margin-right: 20px; /* Space between image and text */
+	//margin-top: -70px; /* Space between image and text */
+  }
+  .member {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    margin: 20px 0;
+  }
+  .member div {
+    text-align: left; /* Align the text of the member details to the left */
+}
+  .member img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed for square images */
+    //border-radius: 80%; /* Circular images */
+    margin-right: 20px; /* Space between image and text */
+	//margin-top: -70px; /* Space between image and text */
+
+  }
+  .socials {
+    margin-top: 10px;
+  }
+  .social-icon {
+    width: 30px !important; /* Size of social media icons */
+    height: 30px !important;
+    margin: 0 0px;
+    display: inline-block;
+	margin-top: 10px;
+
+  }
+  
+    .writeups-list {
+    text-align: left; /* Align the writeups text to the left */
+    padding-left: 20px; /* Indent the list slightly from the left */
+    list-style-type: none; /* Remove default list styling */
+    margin: 20px 0; /* Spacing around the list */
+  }
+
+  .writeups-list li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+
+  .writeups-list a {
+    color: #fc717e; /* Style links to match your color scheme */
+    text-decoration: none; /* Optional: removes underline from links */
+    font-weight: bold; /* Optional: makes the link text bold */
+  }
+  
+  /* Optionally, if you want to add a hover effect to your links */
+  .writeups-list a:hover {
+    color: #fff; /* Changes color on hover */
+  }
+
+</style>
+</head>
+<body>
+<header>
+  <a href="index.html">Home</a>
+  <a href="members.html">Members</a>
+  <a href="writeups.html">Writeups</a>
+  <a href="achievements.html">Achievements</a>
+</header>
+<div class="container">
+  <section class="members">
+  <img src="../images/team2.png" alt="Member Name" class="team-img">
+    <h1>WindTeam</h1>
+    <!-- Repeat this part for each member -->
+   <ul class="writeups-list">
+    <!-- Repeat this part for each writeup -->
+    <li>We are an international CTF team created in 2022.</li>
+	<li>  <a href="https://ctftime.org/team/186555" target="_blank"><img src="../images/ctftime.png" class="social-icon"></a></li>
+
+    <!-- Example writeup link -->
+    <!-- Writeup section ends -->
+  </ul>
+    <!-- Member section ends -->
+  </section>
+</div>
+</body>
+</html>
